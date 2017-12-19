@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Website Tutorial</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
+<title>Knjižara</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+  }
+header {
+    background: #405580;
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.90;
+  }
+#logo {
+    margin: 20px;
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: url(http://www.bookofnames.net/image/logo.gif) no-repeat center;
 
+  }
+nav {
+    float: right;
+    padding: 35px 20px 20px 0;
+  }
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+  }
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+  }
+ul {
+    list-style: none;
+  }
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+  }
+.current {
+    color: #FFF;
+    text-decoration: underline;
+  }
   </style>
 </head>
 <body>
