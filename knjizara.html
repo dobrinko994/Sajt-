@@ -66,7 +66,54 @@ nav ul li {
     color: #FFF;
     text-decoration: underline;
   }
-  </style>
+.dropbtn {
+      background-color: #405580;
+      color: white;
+      padding: 0px;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+  }
+
+.dropbtn:hover, .dropbtn:focus {
+      color: #FFF;
+      text-decoration: underline;
+  }
+
+.dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #405580;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+.dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 12px;
+  }
+
+.dropdown a:hover {
+    color: #FFF
+    text-decoration: underline;
+  }
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+  .show {display:block;}
+</style>
 </head>
 <body>
 
@@ -77,12 +124,43 @@ nav ul li {
           <ul>
             <li><a href="#" class="current">Početna</a></li>
             <li><a href="#">O nama</a></li>
-            <li><a href="#">Žanrovi</a></li>
+            <li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Žanrovi</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Za djecu</a>
+                  <a href="#">Krimi</a>
+                  <a href="#">Trileri</a>
+                </div>
+              </div>
+            </li>
             <li><a href="#">Galerija</a></li>
             <li><a href="#">Kontakt</a></li>
           </ul>
         </nav>
   </header>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 
   <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
       <ol class="carousel-indicators">
