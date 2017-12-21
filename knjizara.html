@@ -124,6 +124,26 @@ nav ul li {
 
 .show {display:block;}
 
+.container {
+  margin: 4% auto;
+}
+
+#pic {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+@media (max-width: 600px) {
+  .myCarousel{
+    display: none;
+  }
+  #pic {
+    max-width: 150px;
+  }
+  h1 {
+    font-size: 1.7em;
+  }
+}
 
 </style>
 </head>
@@ -207,6 +227,82 @@ window.onclick = function(event) {
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<div class="container text-center">
+  <h1>Preporučujemo</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="http://www.laguna.rs/_img/korice/3692/zatvorenice-milutin_a_popovic_s.jpg" id="pic">
+      <h2>Zatvorenice</h2>
+      <h4>Milutin A. Popović</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="http://www.laguna.rs/_img/korice/3706/krv_i_sapunica-mladen_markovic_s.jpg" id="pic">
+      <h2>Krv i sapunica</h2>
+      <h4>Mladen Marković</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="http://www.laguna.rs/_img/korice/3684/trik-emanuel_bergman_s.jpg" id="pic">
+      <h2>Trik</h2>
+      <h4>Emanuel Bergman</h4>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Velika akcija</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="http://www.laguna.rs/_img/baner_naslona/9y1h.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <h2>Promocija knjige</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <img src="http://www.laguna.rs/_img/korice/3559/olujni_bedem-dejan_stojiljkovic_s.jpg" class="img-responsive">
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <h2>U pripremi</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <img src="http://www.laguna.rs/_img/korice/3659/odabrane_price-dzon_civer_s.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <h4><a href="#hidden" data-toggle="collapse">Radno vrijeme</a></h4>
+      <div id="hidden" class="collapse">
+      <p><underline>Radni dani:</underline> 9:00-18:00</p>
+      <p><underline>Vikend:</underline> 11:00-16:00</p>
+    </div>
+  </div>
+</div>
+
 
 
 
