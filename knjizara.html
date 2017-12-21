@@ -43,7 +43,7 @@ body {
   }
 
 #logo {
-    margin: 20px;
+    margin: 15px;
     float: left;
     width: 250px;
     height: 100px;
@@ -131,6 +131,34 @@ nav ul li {
 #pic {
   max-width: 200px;
   margin: 1% auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #5E4485;
+  padding: 3%;
+  color: #FFF;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 6%;
+}
+@media (max-width:900px) {
+  .fa {
+      font-size: 20px;
+      padding: 10px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -297,11 +325,32 @@ window.onclick = function(event) {
   <div class="row">
       <h4><a href="#hidden" data-toggle="collapse">Radno vrijeme</a></h4>
       <div id="hidden" class="collapse">
-      <p><underline>Radni dani:</underline> 9:00-18:00</p>
-      <p><underline>Vikend:</underline> 11:00-16:00</p>
+      <p style="color:Red;"><underline>Radni dani:</underline> 9:00-18:00</p>
+      <p style="color:Red;"><underline>Vikend:</underline> 11:00-16:00</p>
     </div>
   </div>
 </div>
+
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3><b>Knjižara</b></h3>
+        <p><b>055297454</b><br><br>
+        1.Decembra<br>
+        Bijeljina 763000<br>
+        knjizarabn@gmail.com</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Prati nas</b></h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+    <div class="col-sm-4">
+      <img src="http://www.bookofnames.net/image/logo.gif" class="icon">
+    </div>
+  </div>
+</footer>
 
 
 
