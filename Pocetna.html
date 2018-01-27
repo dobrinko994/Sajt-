@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Početna</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+body {
+  background: #F0F0F0;
+}
+
+.bs-example {
+	margin: 20px;
+}
+
+.container {
+  margin: 4% auto;
+}
+
+#icon {
+  max-width: 200px;
+  margin: 3% auto;
+}
+
+.img-responsive1 {
+  margin: 8%;
+}
+
+footer {
+  width: 100%;
+  background-color: #5E4485;
+  padding: 3%;
+  color: #FFF;
+}
+
+ul.social li {
+  display: inline;
+  padding: 1%;
+}
+
+ul.social li img {
+  height: 70px;
+  margin: 3%;
+}
+
+@media (max-width: 600px){
+#icon {
+  max-width: 150px;
+   }
+h1 {
+    font-size: 1.7em;
+   }
+h2 {
+    font-size: 1.5em;
+   }
+h4 {
+    font-size: 1.3em;
+   }
+}
+
+</style>
+</head>
+
+<body>
+<div class="bs-example">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="pocetna.html" class="navbar-brand"><b>Knjižara</b></a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><b>Početna</b></a></li>
+                <li><a href="#"><b>O nama</b></a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><b>Žanrovi</b> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><b>Istorijski</b></a></li>
+                        <li><a href="#"><b>Za djecu</b></a></li>
+                        <li><a href="#"><b>Trileri</b></a></li>
+                        <li><a href="#"><b>Biografije</b></a></li>
+                        <li><a href="#"><b>Klasici</b></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><b>Stripovi</b></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>
+
+   <div class="carousel-inner" role="listbox">
+     <div class="item active">
+       <img src="img/baner_slider_1200x360_ponocno_sunce.jpg" alt="Ponocno Sunce" style="width:100%;">
+     </div>
+
+     <div class="item">
+       <img src="img/baner_slider_1200x360_srodnici.jpg" alt="srodnici" style="width:100%;">
+     </div>
+
+     <div class="item">
+       <img src="img/lagunaslider_slider_ako-me-jednom-prevaris_1200x360px.jpg" alt="ajp" style="width:100%;">
+     </div>
+   </div>
+
+   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#myCarousel" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+
+ <div class="container text-center">
+     <h1>Preporučujemo</h1>
+       <div class="row">
+         <div class="col-sm-4">
+           <img src="img/covek_po_imenu_uve_s.jpg" id="icon">
+             <h2>Čovek po imenu Uve</h2>
+             <h4>Fredrik Bakman</h4>
+         </div>
+         <div class="col-sm-4">
+           <img src="img/dvadeset_srpskih_podela_s.jpg" id="icon">
+             <h2>Dvadeset srpskih podela</h2>
+             <h4>Dušan Kovačević</h4>
+         </div>
+         <div class="col-sm-4">
+           <img src="img/alef-paulo_koeljo_s.jpg" id="icon">
+             <h2>Alef</h2>
+             <h4>Paulo Koeljo</h4>
+         </div>
+       </div>
+   </div>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-md-6">
+         <h2>Velika akcija</h2>
+           <p>Upoznajte Danijela Salivana, muškarca sa komplikovanim životom.
+             Njujorčanina koji živi u divljini u Irskoj. Ima decu u Kaliforniji koju nikad ne viđa,
+             oca u Bruklinu kog prezire i suprugu Klodet, povučenu bivšu filmsku zvezdu koja je spremna da puca u svakog ko priđe njihovoj kući.
+             Takođe, on će upravo saznati nešto o ženi sa kojom je izgubio kontakt pre dvadeset godina, a to otkriće će ga odvesti daleko od supruge i doma. Hoće li ljubav prema Klodet biti dovoljna da ga vrati?</p>
+   <div class="container">
+     <div class="row">
+         <h4><a href="#hidden" data-toggle="collapse">Nastavi čitanje</a></h4>
+           <div id="hidden" class="collapse">
+           <p>Sedmi roman Megi O’Farel je blistava, intimna pripovest o ljudima koje ostavljamo za sobom i onome što postajemo dok tragamo za svojim mestom u svetu.
+             „Proza Megi O’Farel uspeva da istovremeno bude intimna i otvorena, oštra u zapažanjima o složenosti braka.
+             Gorko-slatka priča koja će oduševiti njene fanove dok će se novi čitaoci pitati kako to da su je tek sada otkrili.“ <i>Book Page</i></p>
+           </div>
+     </div>
+   </div>
+       </div>
+       <div class="col-md-6">
+         <img src="img/megiofarelkn.jpg" class="img-responsive">
+       </div>
+     </div>
+   </div>
+
+   <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h2>Promocija knjige</h2>
+          <p>Hemingvej je u pola noći probudio svoju ženu da bi joj naglas pročitao Čiverovu priču Muž, Nabokov je smatrao da je priča Zbogom, brate najbolja američka priča, a danas se Džon Čiver smatra američkim Čehovom XX veka.
+            Opisujući prosečne američke porodice ušuškane u otmena predgrađa, ponajpre u Čiverov fiktivni Šejdi Hil, ovaj pisac je dao neprolaznu sliku Amerike u zlatno doba srednje klase, njihove malograđanske navike, potrošački mentalitet i isprazne snove i težnje kroz neskriveni cinizam, ali i toplinu i razumevanje za ljudske slabosti svojih junaka.
+            Između 1935. i 1981. objavio je u Njujorkeru 121 priču i za svoj pripovedački opus dobio dve najprestižnije američke nagrade – Pulicerovu i <i>National Book Award</i>.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="img/odabrane_price-dzon_civer_s.jpg" class="img-responsive1">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h2>U pripremi</h2>
+          <p>Bitkoin, revolucionarna digitalna valuta i finansijska tehnologija, predstavlja začetak jednog globalnog društvenog pokreta. Ideja nove valute, koju održavaju korisnički računari širom sveta, bila je predmet brojnih šala,
+            ali to je nije sprečilo da preraste u tehnologiju vrednu više milijardi dolara, tehnologiju s mnoštvom sledbenika, koji je smatraju najvažnijim novim izumom još od stvaranja interneta.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="img/digitalno_zlato-natanijel_poper_s.jpg" class="img-responsive1">
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <h2><b>Knjižara</b></h2>
+            <p><b>055297454</b><br><br>
+               1.Decembra<br>
+               Bijeljina 76300<br>
+               knjizarabn@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h2><b>Prati nas</b></h2>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="img/facebook1.png" /></a></li>
+            <li><a href="https://www.twitter.com/"><img src="img/twitter1.png" /></a></li>
+            <li><a href="https://www.youtube.com/?hl=sr"><img src="img/youtube1.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
