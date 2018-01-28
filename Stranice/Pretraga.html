@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pretraga</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+body {
+  background: #F0F0F0;
+}
+
+.bs-example {
+	margin: 20px;
+}
+
+@media (max-width: 600px){
+h2 {
+    font-size: 1.5em;
+   }
+}
+
+</style>
+</head>
+
+<body>
+<div class="bs-example">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../Pocetna.html" class="navbar-brand"><b>Knjižara</b></a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../Pocetna.html"><b>Početna</b></a></li>
+                <li><a href="O nama.html"><b>O nama</b></a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><b>Žanrovi</b> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Istorijski.html"><b>Istorijski</b></a></li>
+                        <li><a href="Za djecu.html"><b>Za djecu</b></a></li>
+                        <li><a href="Trileri.html"><b>Trileri</b></a></li>
+                        <li><a href="Biografije.html"><b>Biografije</b></a></li>
+                        <li><a href="Domace.html"><b>Domaće</b></a></li>
+                        <li class="divider"></li>
+                        <li><a href="Stripovi.html"><b>Stripovi</b></a></li>
+                    </ul>
+                </li>
+                <li><a href="Kontakt.html"><b>Kontakt</b></a></li>
+                <li class="active"><a href="#"><b>Pretraga</b></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+  <h2>Pretraga knjiga i autora</h2>
+  <input class="form-control" id="myInput" type="text" placeholder="Unijeti ime, prezime pisca ili naslov">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Knjiga</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td>Ivo </td>
+        <td>Andric</td>
+        <td>Travnicka hronika</td>
+      </tr>
+      <tr>
+        <td>Ivo </td>
+        <td>Andric</td>
+        <td>Priče</td>
+      </tr>
+      <tr>
+        <td>Dobrica</td>
+        <td>Cosic</td>
+        <td>Koreni</td>
+      </tr>
+      <tr>
+        <td>Jakov</td>
+        <td>Ignjatovic</td>
+        <td>Veciti mladozenja</td>
+      </tr>
+      <tr>
+        <td>Radoje</td>
+        <td>Domanovic</td>
+        <td>Danga</td>
+      </tr>
+      <tr>
+        <td>Marin</td>
+        <td>Drzic</td>
+        <td>Dundo Maroje</td>
+      </tr>
+      <tr>
+        <td>Djovani</td>
+        <td>Bokaco</td>
+        <td>Dekameron</td>
+      </tr>
+      <tr>
+        <td>Gordana</td>
+        <td>Maletić</td>
+        <td>Katarke Beograda</td>
+      </tr>
+      <tr>
+        <td>Robert</td>
+        <td>Takarič</td>
+        <td>Devojčice su obično više</td>
+      </tr>
+      <tr>
+        <td>Vesna</td>
+        <td>Ćorović Butrić</td>
+        <td>Izmislica</td>
+      </tr>
+      <tr>
+        <td>Igor</td>
+        <td>Kolarov</td>
+        <td>Agi i Ema</td>
+      </tr>
+      <tr>
+        <td>Bobi</td>
+        <td>Pirs</td>
+        <td>Kriptalni portal</td>
+      </tr>
+      <tr>
+        <td>Harlan</td>
+        <td>Koben</td>
+        <td>Ako me jednom prevariš</td>
+      </tr>
+      <tr>
+        <td>Mišel</td>
+        <td>Ričmond</td>
+        <td>Bračni pakt</td>
+      </tr>
+      <tr>
+        <td>Šari Lapena</td>
+        <td>Lapena</td>
+        <td>Par iz susedstva</td>
+      </tr>
+      <tr>
+        <td>L.S.</td>
+        <td>Hilton</td>
+        <td>Domina</td>
+      </tr>
+      <tr>
+        <td>Ju</td>
+        <td>Nesbe</td>
+        <td>Krv na snegu</td>
+      </tr>
+      <tr>
+        <td>Agata</td>
+        <td>Kristi</td>
+        <td>Iskričavi cijanid</td>
+      </tr>
+      <tr>
+        <td>Ju</td>
+        <td>Nesbe</td>
+        <td>Ponoćno sunce</td>
+      </tr>
+      <tr>
+        <td>Agata</td>
+        <td>Kristi</td>
+        <td>Ubistvo u Orijent Ekspresu</td>
+      </tr>
+      <tr>
+        <td>Patriša</td>
+        <td>Kornvel</td>
+        <td>Poslednja stanica</td>
+      </tr>
+      <tr>
+        <td>Toni</td>
+        <td>Parsons</td>
+        <td>Poslednja žrtva</td>
+      </tr>
+      <tr>
+        <td>Joakim</td>
+        <td>Sander</td>
+        <td>Vernik</td>
+      </tr>
+      <tr>
+        <td>Luka</td>
+        <td>d’Andrea</td>
+        <td>Srž zla</td>
+      </tr>
+      <tr>
+        <td>Andrija</td>
+        <td>Čolak</td>
+        <td>Agonija Jugoslavije</td>
+      </tr>
+      <tr>
+        <td>Dobrica</td>
+        <td>Ćosić</td>
+        <td>Deobe</td>
+      </tr>
+      <tr>
+        <td>Dejan</td>
+        <td>Stojiljković</td>
+        <td>Duge noći i crne zastave</td>
+      </tr>
+      <tr>
+        <td>Luka</td>
+        <td>Mičeta</td>
+        <td>Dušan Silni</td>
+      </tr>
+      <tr>
+        <td>Ričard</td>
+        <td>Flanagan</td>
+        <td>Gladna srca</td>
+      </tr>
+      <tr>
+        <td>Filipa</td>
+        <td>Gregori</td>
+        <td>Kraljeva kletva</td>
+      </tr>
+      <tr>
+        <td>Aleksander</td>
+        <td>Či</td>
+        <td>Kraljica noći</td>
+      </tr>
+      <tr>
+        <td>Jelena</td>
+        <td>Bačić Alimpić</td>
+        <td>Nigde nema te</td>
+      </tr>
+      <tr>
+        <td>Miloš</td>
+        <td>Crnjanski</td>
+        <td>Seobe</td>
+      </tr>
+      <tr>
+        <td>Marko</td>
+        <td>Aleksić</td>
+        <td>Srpski viteški kod</td>
+      </tr>
+      <tr>
+        <td>Milutin A.</td>
+        <td>Popović</td>
+        <td>Zatvorenice</td>
+      </tr>
+      <tr>
+        <td>Dejan</td>
+        <td>Stojiljković</td>
+        <td>Olujni bedem</td>
+      </tr>
+      <tr>
+        <td>Miroslav</td>
+        <td>Antić</td>
+        <td>Hodajući na rukama</td>
+      </tr>
+      <tr>
+        <td>Jovica</td>
+        <td>Aćin</td>
+        <td>Srodnici</td>
+      </tr>
+      <tr>
+        <td>Vladan</td>
+        <td>Matijević</td>
+        <td>R.C.Neminovno</td>
+      </tr>
+      <tr>
+        <td>Vladimir</td>
+        <td>Arsenijević</td>
+        <td>Predator</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+ <script>
+  $(document).ready(function(){
+   $("#myInput").on("keyup", function() {
+     var value = $(this).val().toLowerCase();
+     $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+
+
+
+  </body>
+  </html>
