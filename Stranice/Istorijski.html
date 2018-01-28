@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Istorijski</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+body {
+  background: #F0F0F0;
+}
+
+.bs-example {
+	margin: 20px;
+}
+
+.container {
+  margin: 2% auto;
+}
+
+#icon {
+  max-width: 200px;
+  margin: 3% auto;
+}
+
+@media (max-width: 600px){
+#icon {
+  max-width: 150px;
+   }
+h1 {
+    font-size: 1.7em;
+   }
+h2 {
+    font-size: 1.5em;
+   }
+h4 {
+    font-size: 1.3em;
+   }
+}
+
+</style>
+</head>
+
+<body>
+<div class="bs-example">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../Pocetna.html" class="navbar-brand"><b>Knjižara</b></a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../Pocetna.html"><b>Početna</b></a></li>
+                <li><a href="O nama.html"><b>O nama</b></a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><b>Žanrovi</b> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="#"><b>Istorijski</b></a></li>
+                        <li><a href="Za djecu.html"><b>Za djecu</b></a></li>
+                        <li><a href="#"><b>Trileri</b></a></li>
+                        <li><a href="#"><b>Biografije</b></a></li>
+                        <li><a href="#"><b>Domaće</b></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><b>Stripovi</b></a></li>
+                    </ul>
+                </li>
+                <li><a href="Kontakt.html"><b>Kontakt</b></a></li>
+                <li><a href="#"><b>Pretraga</b></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+</script>
+
+<div class="container text-center">
+    <h1><b>Istorijski</b></h1>
+    <div class="row">
+      <div class="col-sm-4">
+          <a href="#" title="Andrija Čolak - Agonija Jugoslavije" data-toggle="popover" data-trigger="hover" data-content="Dragocena ostavština svedoka poslednjih dana Jugoslavije pred sam njen raspad krajem osamdesetih godina prošlog veka.">
+            <img src="../img/agonija_jugoslavije-andrija_colak_s.jpg" id="icon"></a>
+      </div>
+      <div class="col-sm-4">
+          <a href="#" title="Dobrica Ćosić - Deobe" data-toggle="popover" data-trigger="hover" data-content="Jedno od najznačajnijih dela srpske književnosti posle Drugog svetskog rata.">
+            <img src="../img/deobe-dobrica_cosic_s.jpg" id="icon"></a>
+      </div>
+      <div class="col-sm-4">
+          <a href="#" title="Dejan Stojiljković - Duge noći i crne zastave" data-toggle="popover" data-trigger="hover" data-content="Tri viteza.Dva carstva.Jedna bitka koja će promeniti sve.">
+            <img src="../img/duge_noci_i_crne_zastave_cirilica-dejan_stojiljkovic_s.jpg" id="icon"></a>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+            <a href="#" title="Luka Mičeta - Dušan Silni" data-toggle="popover" data-trigger="hover" data-content="Biografija prvog srpskog cara.">
+              <img src="../img/dusan_silni-luka_miceta_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Ričard Flanagan - Gladna srca" data-toggle="popover" data-trigger="hover" data-content="Priča o zabranjenoj ljubavi britanskog moreplovca i Aboridžinke.">
+              <img src="../img/gladna_srca-ricard_flanagan_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Filipa Gregori - Kraljeva kletva" data-toggle="popover" data-trigger="hover" data-content="Šesti roman u serijalu 'Rodbinski ratovi'.">
+              <img src="../img/kraljeva_kletva-filipa_gregori_s.jpg" id="icon"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+            <a href="#" title="Kraljica noći - Aleksander Či" data-toggle="popover" data-trigger="hover" data-content="Roman o burnom putu jedne mlade žene, od cirkuske jahačice i kurtizane do svetski poznate dive.">
+              <img src="../img/kraljica_noci-aleksander_ci_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Jelena Bačić Alimpić - Nigde nema te" data-toggle="popover" data-trigger="hover" data-content="Ovaj roman je protkan najdubljim emocijama i moralnim dilemama o dobru i zlu, o ljubavi i mržnji, o životu i smrti">
+              <img src="../img/nigde_nema_te-jelena_bacic_alimpic_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Dejan Stojiljković - Olujni bedem" data-toggle="popover" data-trigger="hover" data-content="Nastavak romana 'Duge noći i crne zastave'.">
+              <img src="../img/olujni_bedem-dejan_stojiljkovic_s.jpg" id="icon"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+            <a href="#" title="Miloš Crnjanski - Seobe" data-toggle="popover" data-trigger="hover" data-content="Seobe istovremeno predstavljaju porodični roman tri lika i nacionalni roman o Srbima u Habzburškoj monarhiji u vreme Marije Terezije.">
+              <img src="../img/seobe-milos_crnjanski_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Marko Aleksić - Srpski viteški kod" data-toggle="popover" data-trigger="hover" data-content="Uzbudljiva i sveobuhvatna priča o srednjovekovnoj Srbiji kao zemlji viteštva.">
+              <img src="../img/srpski_viteski_kod-marko_aleksic_s.jpg" id="icon"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" title="Milutin A. Popović - Zatvorenice" data-toggle="popover" data-trigger="hover" data-content="Album ženskog odeljenja Požarevačkog kaznenog zavoda (1898).">
+              <img src="../img/zatvorenice-milutin_a_popovic_s.jpg" id="icon"></a>
+        </div>
+      </div>
+  </div>
